@@ -1,0 +1,10 @@
+# Ignore build files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.db
+*.db-shm
+*.db-wal
