@@ -312,3 +312,4 @@ C:\Users\Zach\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\refint\Pokedex.dll
 C:\Users\Zach\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.pdb
 C:\Users\Zach\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.genruntimeconfig.cache
 C:\Users\Zach\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\ref\Pokedex.dll
+C:\Users\Zach\source\repos\Pokedex\Pokedex\obj\Debug\net8.0\Pokedex.sourcelink.json

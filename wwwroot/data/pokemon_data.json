@@ -1,0 +1,983 @@
+{
+  "Articuno": {
+    "Typing": "Ice/Flying",
+    "Description": "A legendary bird Pokémon whose freezing wings are said to bring an eternal winter.",
+    "HP": 90,
+    "Attack": 85,
+    "Defense": 100,
+    "SpecialAttack": 95,
+    "SpecialDefense": 125,
+    "Speed": 85
+  },
+  "Zapdos": {
+    "Typing": "Electric/Flying",
+    "Description": "A legendary bird Pokémon known for its mastery over lightning, electrifying the skies.",
+    "HP": 90,
+    "Attack": 90,
+    "Defense": 85,
+    "SpecialAttack": 125,
+    "SpecialDefense": 90,
+    "Speed": 100
+  },
+  "Moltres": {
+    "Typing": "Fire/Flying",
+    "Description": "A legendary bird Pokémon whose blazing wings ignite the air, heralding fiery devastation.",
+    "HP": 90,
+    "Attack": 100,
+    "Defense": 90,
+    "SpecialAttack": 125,
+    "SpecialDefense": 85,
+    "Speed": 90
+  },
+  "Mewtwo": {
+    "Typing": "Psychic",
+    "Description": "A legendary Pokémon created through genetic engineering, renowned for its immense power and intelligence.",
+    "HP": 106,
+    "Attack": 110,
+    "Defense": 90,
+    "SpecialAttack": 154,
+    "SpecialDefense": 90,
+    "Speed": 130
+  },
+  "Mew": {
+    "Typing": "Psychic",
+    "Description": "A mythical Pokémon said to possess the DNA of all Pokémon, representing the ancestor of every Pokémon.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+
+  "Lugia": {
+    "Typing": "Psychic/Flying",
+    "Description": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+    "HP": 106,
+    "Attack": 90,
+    "Defense": 130,
+    "SpecialAttack": 90,
+    "SpecialDefense": 154,
+    "Speed": 110
+  },
+  "Ho-Oh": {
+    "Typing": "Fire/Flying",
+    "Description": "Its feathers are in seven colors. It is said that anyone seeing it is promised eternal happiness.",
+    "HP": 106,
+    "Attack": 130,
+    "Defense": 90,
+    "SpecialAttack": 110,
+    "SpecialDefense": 154,
+    "Speed": 90
+  },
+  "Raikou": {
+    "Typing": "Electric",
+    "Description": "One of the legendary beasts, said to embody the fury of a thunderstorm.",
+    "HP": 90,
+    "Attack": 85,
+    "Defense": 75,
+    "SpecialAttack": 115,
+    "SpecialDefense": 100,
+    "Speed": 115
+  },
+  "Entei": {
+    "Typing": "Fire",
+    "Description": "One of the legendary beasts, born from volcanic flames and embodying intense passion.",
+    "HP": 115,
+    "Attack": 115,
+    "Defense": 85,
+    "SpecialAttack": 90,
+    "SpecialDefense": 75,
+    "Speed": 100
+  },
+  "Suicune": {
+    "Typing": "Water",
+    "Description": "One of the legendary beasts, known for its grace and calm, said to purify water wherever it roams.",
+    "HP": 100,
+    "Attack": 75,
+    "Defense": 115,
+    "SpecialAttack": 90,
+    "SpecialDefense": 115,
+    "Speed": 85
+  },
+  "Celebi": {
+    "Typing": "Psychic/Grass",
+    "Description": "A mythical Pokémon said to travel through time, appearing to help restore balance to nature.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+  "Groudon": {
+    "Typing": "Ground",
+    "Description": "A legendary Pokémon that embodies the power of the land, said to have appeared to reclaim the earth.",
+    "HP": 100,
+    "Attack": 150,
+    "Defense": 140,
+    "SpecialAttack": 100,
+    "SpecialDefense": 90,
+    "Speed": 90
+  },
+  "Kyogre": {
+    "Typing": "Water",
+    "Description": "A legendary Pokémon of the deep seas, its presence is said to expand the oceans and stir violent storms.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 90,
+    "SpecialAttack": 150,
+    "SpecialDefense": 140,
+    "Speed": 90
+  },
+  "Rayquaza": {
+    "Typing": "Dragon/Flying",
+    "Description": "A legendary Pokémon that soars high above the clouds, maintaining balance between sky and earth.",
+    "HP": 105,
+    "Attack": 150,
+    "Defense": 90,
+    "SpecialAttack": 150,
+    "SpecialDefense": 90,
+    "Speed": 95
+  },
+  "Regirock": {
+    "Typing": "Rock",
+    "Description": "This Pokémon is said to be made entirely of rock, embodying the solidity and strength of mountains.",
+    "HP": 80,
+    "Attack": 100,
+    "Defense": 200,
+    "SpecialAttack": 50,
+    "SpecialDefense": 100,
+    "Speed": 50
+  },
+  "Regice": {
+    "Typing": "Ice",
+    "Description": "A legendary Pokémon whose body is composed entirely of ancient ice, unyielding and eternal.",
+    "HP": 80,
+    "Attack": 50,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 200,
+    "Speed": 50
+  },
+  "Registeel": {
+    "Typing": "Steel",
+    "Description": "This Pokémon's metallic body is virtually indestructible, forged by ancient secrets of its kind.",
+    "HP": 80,
+    "Attack": 75,
+    "Defense": 150,
+    "SpecialAttack": 75,
+    "SpecialDefense": 150,
+    "Speed": 50
+  },
+  "Latias": {
+    "Typing": "Dragon/Psychic",
+    "Description": "A legendary Pokémon known for its grace and empathy, often seen gliding gracefully through the sky.",
+    "HP": 80,
+    "Attack": 80,
+    "Defense": 90,
+    "SpecialAttack": 110,
+    "SpecialDefense": 130,
+    "Speed": 110
+  },
+  "Latios": {
+    "Typing": "Dragon/Psychic",
+    "Description": "A legendary Pokémon known for its speed and intelligence, it soars through the skies with precision.",
+    "HP": 80,
+    "Attack": 90,
+    "Defense": 80,
+    "SpecialAttack": 130,
+    "SpecialDefense": 110,
+    "Speed": 110
+  },
+  "Deoxys": {
+    "Typing": "Psychic",
+    "Description": "A mythical Pokémon from outer space, its DNA constantly mutates to adapt to its environment.",
+    "HP": 50,
+    "Attack": 150,
+    "Defense": 50,
+    "SpecialAttack": 150,
+    "SpecialDefense": 50,
+    "Speed": 150
+  },
+  "Jirachi": {
+    "Typing": "Steel/Psychic",
+    "Description": "A mythical Pokémon said to grant wishes, awakening once every thousand years.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+  "Dialga": {
+    "Typing": "Steel/Dragon",
+    "Description": "A legendary Pokémon that is said to control time itself. Its presence marks the flow of time.",
+    "HP": 100,
+    "Attack": 120,
+    "Defense": 120,
+    "SpecialAttack": 150,
+    "SpecialDefense": 100,
+    "Speed": 90
+  },
+  "Palkia": {
+    "Typing": "Water/Dragon",
+    "Description": "A legendary Pokémon that governs space, distorting dimensions with its every move.",
+    "HP": 90,
+    "Attack": 120,
+    "Defense": 100,
+    "SpecialAttack": 150,
+    "SpecialDefense": 120,
+    "Speed": 100
+  },
+  "Giratina": {
+    "Typing": "Ghost/Dragon",
+    "Description": "Banished for its violent nature, this legendary Pokémon now roams a distorted dimension known as the Reverse World.",
+    "HP": 150,
+    "Attack": 100,
+    "Defense": 120,
+    "SpecialAttack": 100,
+    "SpecialDefense": 120,
+    "Speed": 90
+  },
+  "Uxie": {
+    "Typing": "Psychic",
+    "Description": "Known as the 'Knowledge Pokémon', Uxie is said to have gifted humanity with the ability to learn and remember.",
+    "HP": 100,
+    "Attack": 75,
+    "Defense": 130,
+    "SpecialAttack": 80,
+    "SpecialDefense": 130,
+    "Speed": 95
+  },
+  "Mesprit": {
+    "Typing": "Psychic",
+    "Description": "Called the 'Emotion Pokémon', Mesprit is believed to imbue living beings with feelings and empathy.",
+    "HP": 80,
+    "Attack": 75,
+    "Defense": 85,
+    "SpecialAttack": 145,
+    "SpecialDefense": 95,
+    "Speed": 95
+  },
+  "Azelf": {
+    "Typing": "Psychic",
+    "Description": "Referred to as the 'Willpower Pokémon', Azelf is said to spark determination and resolve in those it touches.",
+    "HP": 75,
+    "Attack": 115,
+    "Defense": 70,
+    "SpecialAttack": 125,
+    "SpecialDefense": 70,
+    "Speed": 115
+  },
+  "Heatran": {
+    "Typing": "Fire/Steel",
+    "Description": "Dwelling in volcanic caverns, this legendary Pokémon’s molten body is both a marvel and a menace.",
+    "HP": 91,
+    "Attack": 90,
+    "Defense": 106,
+    "SpecialAttack": 130,
+    "SpecialDefense": 106,
+    "Speed": 77
+  },
+  "Regigigas": {
+    "Typing": "Normal",
+    "Description": "A colossal Pokémon said to have awakened the three Regis, Regigigas embodies raw, immeasurable strength.",
+    "HP": 110,
+    "Attack": 160,
+    "Defense": 110,
+    "SpecialAttack": 80,
+    "SpecialDefense": 110,
+    "Speed": 100
+  },
+  "Arceus": {
+    "Typing": "Normal",
+    "Description": "A mythical Pokémon believed to have shaped the universe, Arceus is revered as the original being from which all Pokémon are born.",
+    "HP": 120,
+    "Attack": 120,
+    "Defense": 120,
+    "SpecialAttack": 120,
+    "SpecialDefense": 120,
+    "Speed": 120
+  },
+  "Darkrai": {
+    "Typing": "Dark",
+    "Description": "A mythical Pokémon cloaked in darkness, said to bring nightmares with its eerie presence.",
+    "HP": 70,
+    "Attack": 90,
+    "Defense": 90,
+    "SpecialAttack": 135,
+    "SpecialDefense": 90,
+    "Speed": 125
+  },
+  "Shaymin": {
+    "Typing": "Grass",
+    "Description": "A mythical Pokémon whose gentle presence brings renewal and gratitude to nature.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+  "Manaphy": {
+    "Typing": "Water",
+    "Description": "A mythical Pokémon said to embody the nurturing spirit of the sea, fostering life and harmony.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+  "Phione": {
+    "Typing": "Water",
+    "Description": "A Pokémon hatched from a Manaphy egg, known for its gentle nature and connection to the ocean's rhythm.",
+    "HP": 80,
+    "Attack": 80,
+    "Defense": 80,
+    "SpecialAttack": 80,
+    "SpecialDefense": 80,
+    "Speed": 80
+  },
+  "Cresselia": {
+    "Typing": "Psychic",
+    "Description": "A legendary Pokémon that embodies the light of hope, said to bring calm dreams and peaceful nights.",
+    "HP": 120,
+    "Attack": 70,
+    "Defense": 120,
+    "SpecialAttack": 75,
+    "SpecialDefense": 130,
+    "Speed": 85
+  },
+  "Victini": {
+    "Typing": "Psychic/Fire",
+    "Description": "A mythical Pokémon said to bring victory to its trainer, its blazing spirit fuels success in battle.",
+    "HP": 100,
+    "Attack": 100,
+    "Defense": 100,
+    "SpecialAttack": 100,
+    "SpecialDefense": 100,
+    "Speed": 100
+  },
+  "Tornadus": {
+    "Typing": "Flying",
+    "Description": "A legendary Pokémon that harnesses the power of wind, stirring up fierce storms in the skies.",
+    "HP": 79,
+    "Attack": 115,
+    "Defense": 70,
+    "SpecialAttack": 125,
+    "SpecialDefense": 80,
+    "Speed": 111
+  },
+  "Thundurus": {
+    "Typing": "Electric/Flying",
+    "Description": "A legendary Pokémon channeling the fury of thunderstorms, its electric presence is awe-inspiring.",
+    "HP": 79,
+    "Attack": 105,
+    "Defense": 70,
+    "SpecialAttack": 145,
+    "SpecialDefense": 80,
+    "Speed": 101
+  },
+  "Landorus": {
+    "Typing": "Ground/Flying",
+    "Description": "A legendary Pokémon that controls the power of the land, its force as steady as the earth beneath.",
+    "HP": 89,
+    "Attack": 145,
+    "Defense": 90,
+    "SpecialAttack": 105,
+    "SpecialDefense": 80,
+    "Speed": 91
+  },
+  "Genesect": {
+    "Typing": "Bug/Steel",
+    "Description": "A legendary Pokémon revived from ancient times, equipped with advanced technology to enhance its combat abilities.",
+    "HP": 71,
+    "Attack": 120,
+    "Defense": 95,
+    "SpecialAttack": 120,
+    "SpecialDefense": 95,
+    "Speed": 99
+  },
+  "Cobalion": {
+    "Typing": "Steel/Fighting",
+    "Description": "One of the Swords of Justice, this legendary Pokémon is known for its unyielding courage and strength.",
+    "HP": 91,
+    "Attack": 90,
+    "Defense": 129,
+    "SpecialAttack": 90,
+    "SpecialDefense": 72,
+    "Speed": 108
+  },
+  "Terrakion": {
+    "Typing": "Rock/Fighting",
+    "Description": "A fierce warrior of the Swords of Justice, celebrated for its unstoppable force and relentless might.",
+    "HP": 91,
+    "Attack": 129,
+    "Defense": 90,
+    "SpecialAttack": 72,
+    "SpecialDefense": 90,
+    "Speed": 108
+  },
+  "Virizion": {
+    "Typing": "Grass/Fighting",
+    "Description": "With a swift and graceful presence, this legendary Pokémon protects nature with the power of the Swords of Justice.",
+    "HP": 91,
+    "Attack": 90,
+    "Defense": 72,
+    "SpecialAttack": 90,
+    "SpecialDefense": 129,
+    "Speed": 108
+  },
+  "Keldeo": {
+    "Typing": "Water/Fighting",
+    "Description": "A mythical Pokémon and a member of the Swords of Justice, revered for its valor and determination.",
+    "HP": 91,
+    "Attack": 72,
+    "Defense": 90,
+    "SpecialAttack": 129,
+    "SpecialDefense": 90,
+    "Speed": 108
+  },
+  "Reshiram": {
+    "Typing": "Dragon/Fire",
+    "Description": "A legendary Pokémon that embodies truth and burns with the flames of reality, setting the stage for change.",
+    "HP": 100,
+    "Attack": 120,
+    "Defense": 100,
+    "SpecialAttack": 150,
+    "SpecialDefense": 120,
+    "Speed": 90
+  },
+  "Zekrom": {
+    "Typing": "Dragon/Electric",
+    "Description": "A legendary Pokémon that embodies ideals, channeling the power of storms with its electrifying might.",
+    "HP": 100,
+    "Attack": 150,
+    "Defense": 120,
+    "SpecialAttack": 120,
+    "SpecialDefense": 100,
+    "Speed": 90
+  },
+  "Kyurem": {
+    "Typing": "Dragon/Ice",
+    "Description": "A legendary Pokémon that represents the absence of opposites, its icy form holding the potential of both extremes.",
+    "HP": 125,
+    "Attack": 130,
+    "Defense": 90,
+    "SpecialAttack": 130,
+    "SpecialDefense": 90,
+    "Speed": 95
+  },
+  "Meloetta": {
+    "Typing": "Normal/Psychic",
+    "Description": "A mythical Pokémon known for its enchanting song and graceful dance, its form shifting between serene melody and fervent battle.",
+    "HP": 100,
+    "Attack": 77,
+    "Defense": 77,
+    "SpecialAttack": 128,
+    "SpecialDefense": 90,
+    "Speed": 128
+  },
+  "Xerneas": {
+    "Typing": "Fairy",
+    "Description": "A legendary Pokémon that embodies the life force of nature, its radiant presence and mystic horns bringing renewal and eternal life.",
+    "HP": 126,
+    "Attack": 131,
+    "Defense": 95,
+    "SpecialAttack": 131,
+    "SpecialDefense": 98,
+    "Speed": 99
+  },
+  "Yveltal": {
+    "Typing": "Dark/Flying",
+    "Description": "A legendary Pokémon that embodies destruction, its ominous wings draining life from all it touches, leaving emptiness in its wake.",
+    "HP": 126,
+    "Attack": 131,
+    "Defense": 95,
+    "SpecialAttack": 131,
+    "SpecialDefense": 98,
+    "Speed": 99
+  },
+  "Zygarde": {
+    "Typing": "Dragon/Ground",
+    "Description": "A legendary Pokémon that maintains the balance of nature, its shifting form embodying the forces of order and chaos.",
+    "HP": 108,
+    "Attack": 100,
+    "Defense": 121,
+    "SpecialAttack": 81,
+    "SpecialDefense": 95,
+    "Speed": 95
+  },
+  "Diancie": {
+    "Typing": "Rock/Fairy",
+    "Description": "A mythical Pokémon formed from a falling star's dust, its crystalline body capable of creating dazzling diamonds.",
+    "HP": 50,
+    "Attack": 100,
+    "Defense": 150,
+    "SpecialAttack": 100,
+    "SpecialDefense": 150,
+    "Speed": 50
+  },
+  "Hoopa": {
+    "Typing": "Psychic/Ghost",
+    "Description": "A mythical Pokémon with the ability to summon portals, its mysterious rings bending space and unleashing incredible power.",
+    "HP": 80,
+    "Attack": 110,
+    "Defense": 60,
+    "SpecialAttack": 150,
+    "SpecialDefense": 130,
+    "Speed": 70
+  },
+  "Volcanion": {
+    "Typing": "Fire/Water",
+    "Description": "A mythical Pokémon that harnesses the dual powers of fire and water, its steamy might forging a balance between opposing elements.",
+    "HP": 80,
+    "Attack": 110,
+    "Defense": 120,
+    "SpecialAttack": 130,
+    "SpecialDefense": 90,
+    "Speed": 70
+  },
+  "Solgaleo": {
+    "Typing": "Psychic/Steel",
+    "Description": "A legendary Pokémon that embodies the power of the sun, known for its majestic presence and boundless energy.",
+    "HP": 137,
+    "Attack": 113,
+    "Defense": 97,
+    "SpecialAttack": 97,
+    "SpecialDefense": 107,
+    "Speed": 103
+  },
+  "Lunala": {
+    "Typing": "Psychic/Ghost",
+    "Description": "A legendary Pokémon that harnesses the power of the moon, shrouded in mystery and ethereal light.",
+    "HP": 137,
+    "Attack": 97,
+    "Defense": 97,
+    "SpecialAttack": 113,
+    "SpecialDefense": 107,
+    "Speed": 103
+  },
+  "Necrozma": {
+    "Typing": "Psychic",
+    "Description": "A legendary Pokémon that absorbs light; its shifting form radiates untold power and mystery.",
+    "HP": 97,
+    "Attack": 107,
+    "Defense": 101,
+    "SpecialAttack": 127,
+    "SpecialDefense": 89,
+    "Speed": 79
+  },
+  "Tapu Koko": {
+    "Typing": "Electric/Fairy",
+    "Description": "A guardian deity of the Alola region, known for its electrifying presence and swift, dynamic energy.",
+    "HP": 70,
+    "Attack": 115,
+    "Defense": 85,
+    "SpecialAttack": 95,
+    "SpecialDefense": 75,
+    "Speed": 130
+  },
+  "Tapu Lele": {
+    "Typing": "Psychic/Fairy",
+    "Description": "A guardian deity revered for its mystical powers and its role in maintaining balance in the Alola region.",
+    "HP": 70,
+    "Attack": 75,
+    "Defense": 75,
+    "SpecialAttack": 130,
+    "SpecialDefense": 115,
+    "Speed": 95
+  },
+  "Tapu Bulu": {
+    "Typing": "Grass/Fighting",
+    "Description": "A guardian deity embodying the raw strength and vitality of nature, protecting the lands of Alola.",
+    "HP": 70,
+    "Attack": 130,
+    "Defense": 115,
+    "SpecialAttack": 85,
+    "SpecialDefense": 95,
+    "Speed": 75
+  },
+  "Tapu Fini": {
+    "Typing": "Water/Fairy",
+    "Description": "A guardian deity whose calming aura and mystical powers nurture and protect life in the Alola region.",
+    "HP": 70,
+    "Attack": 75,
+    "Defense": 115,
+    "SpecialAttack": 95,
+    "SpecialDefense": 130,
+    "Speed": 85
+  },
+  "Magearna": {
+    "Typing": "Steel/Fairy",
+    "Description": "A mythical Pokémon created with mysterious technology, its heart powered by both science and magic.",
+    "HP": 80,
+    "Attack": 95,
+    "Defense": 115,
+    "SpecialAttack": 130,
+    "SpecialDefense": 115,
+    "Speed": 65
+  },
+  "Marshadow": {
+    "Typing": "Fighting/Ghost",
+    "Description": "A mythical Pokémon that lurks in the shadows, known for its swift movements and elusive power.",
+    "HP": 90,
+    "Attack": 125,
+    "Defense": 80,
+    "SpecialAttack": 90,
+    "SpecialDefense": 90,
+    "Speed": 125
+  },
+  "Zeraora": {
+    "Typing": "Electric",
+    "Description": "A mythical Pokémon that embodies the essence of lightning—swift, unpredictable, and electrifying in battle.",
+    "HP": 88,
+    "Attack": 112,
+    "Defense": 75,
+    "SpecialAttack": 102,
+    "SpecialDefense": 80,
+    "Speed": 143
+  },
+  "Meltan": {
+    "Typing": "Steel",
+    "Description": "A mythical Pokémon formed from a mysterious metal, its curious design and latent power captivate trainers worldwide.",
+    "HP": 46,
+    "Attack": 65,
+    "Defense": 65,
+    "SpecialAttack": 55,
+    "SpecialDefense": 35,
+    "Speed": 34
+  },
+  "Melmetal": {
+    "Typing": "Steel",
+    "Description": "The evolved form of Meltan, a colossal metallic Pokémon with immense power and a steadfast presence.",
+    "HP": 135,
+    "Attack": 143,
+    "Defense": 143,
+    "SpecialAttack": 80,
+    "SpecialDefense": 86,
+    "Speed": 34
+  },
+  "Nihilego": {
+    "Typing": "Rock/Poison",
+    "Description": "A mysterious Ultra Beast that emerges from another dimension, its crystalline, jellyfish-like form exuding toxic energy and baffling behavior.",
+    "HP": 109,
+    "Attack": 53,
+    "Defense": 47,
+    "SpecialAttack": 127,
+    "SpecialDefense": 131,
+    "Speed": 103
+  },
+  "Buzzwole": {
+    "Typing": "Bug/Fighting",
+    "Description": "A muscular Ultra Beast with a gigantic, imposing physique; its raw power and ferocious strength dominate any battlefield.",
+    "HP": 107,
+    "Attack": 139,
+    "Defense": 139,
+    "SpecialAttack": 53,
+    "SpecialDefense": 53,
+    "Speed": 79
+  },
+  "Pheromosa": {
+    "Typing": "Bug/Fighting",
+    "Description": "A sleek and agile Ultra Beast whose lithe form and deadly grace make it one of the most dangerous predators in its class.",
+    "HP": 71,
+    "Attack": 137,
+    "Defense": 37,
+    "SpecialAttack": 137,
+    "SpecialDefense": 37,
+    "Speed": 151
+  },
+  "Xurkitree": {
+    "Typing": "Electric",
+    "Description": "An enigmatic Ultra Beast that channels pure electricity; its bizarre form crackles with intense, unpredictable energy.",
+    "HP": 83,
+    "Attack": 89,
+    "Defense": 71,
+    "SpecialAttack": 173,
+    "SpecialDefense": 71,
+    "Speed": 83
+  },
+  "Celesteela": {
+    "Typing": "Steel/Flying",
+    "Description": "A colossal Ultra Beast resembling a metallic tree; its towering presence and cosmic energy defy the bounds of gravity.",
+    "HP": 97,
+    "Attack": 101,
+    "Defense": 103,
+    "SpecialAttack": 107,
+    "SpecialDefense": 101,
+    "Speed": 61
+  },
+  "Kartana": {
+    "Typing": "Grass/Steel",
+    "Description": "A razor-thin Ultra Beast crafted from ultra-light materials; its razor-sharp edges and lethal precision make it a formidable force.",
+    "HP": 59,
+    "Attack": 181,
+    "Defense": 131,
+    "SpecialAttack": 59,
+    "SpecialDefense": 31,
+    "Speed": 109
+  },
+  "Guzzlord": {
+    "Typing": "Dark/Dragon",
+    "Description": "A gargantuan Ultra Beast with an insatiable hunger; its monstrous form and devastating appetite strike fear into all who face it.",
+    "HP": 223,
+    "Attack": 101,
+    "Defense": 53,
+    "SpecialAttack": 97,
+    "SpecialDefense": 53,
+    "Speed": 43
+  },
+  "Poipole": {
+    "Typing": "Poison",
+    "Description": "A small yet potent Ultra Beast that secretes toxic substances; its enigmatic presence belies a dangerous power.",
+    "HP": 67,
+    "Attack": 73,
+    "Defense": 67,
+    "SpecialAttack": 73,
+    "SpecialDefense": 67,
+    "Speed": 73
+  },
+  "Naganadel": {
+    "Typing": "Poison/Dragon",
+    "Description": "An evolved form of Poipole, this Ultra Beast wields venomous power with lethal precision, its sleek design both elegant and dangerous.",
+    "HP": 73,
+    "Attack": 73,
+    "Defense": 73,
+    "SpecialAttack": 127,
+    "SpecialDefense": 73,
+    "Speed": 121
+  },
+  "Stakataka": {
+    "Typing": "Rock/Steel",
+    "Description": "An Ultra Beast constructed of massive, interlocking blocks; its fortress-like body and crushing strength make it nearly indestructible.",
+    "HP": 61,
+    "Attack": 131,
+    "Defense": 211,
+    "SpecialAttack": 53,
+    "SpecialDefense": 101,
+    "Speed": 13
+  },
+  "Blacephalon": {
+    "Typing": "Fire/Ghost",
+    "Description": "A flamboyant Ultra Beast resembling a fiery explosion, it dazzles with its volatile displays and unpredictable, explosive power.",
+    "HP": 53,
+    "Attack": 127,
+    "Defense": 53,
+    "SpecialAttack": 151,
+    "SpecialDefense": 79,
+    "Speed": 107
+  },
+  "Zacian": {
+    "Typing": "Fairy/Steel",
+    "Description": "A legendary Pokémon of the Galar region, wielding a blade-like fang imbued with cosmic power.",
+    "HP": 92,
+    "Attack": 130,
+    "Defense": 115,
+    "SpecialAttack": 80,
+    "SpecialDefense": 115,
+    "Speed": 138
+  },
+  "Zamazenta": {
+    "Typing": "Fighting/Steel",
+    "Description": "A legendary Pokémon embodying the spirit of defense, its shield-like form protecting all it holds dear.",
+    "HP": 92,
+    "Attack": 130,
+    "Defense": 145,
+    "SpecialAttack": 80,
+    "SpecialDefense": 145,
+    "Speed": 128
+  },
+  "Eternatus": {
+    "Typing": "Poison/Dragon",
+    "Description": "A colossal, otherworldly Pokémon whose dark energy threatens to engulf the Galar region in chaos.",
+    "HP": 140,
+    "Attack": 85,
+    "Defense": 95,
+    "SpecialAttack": 145,
+    "SpecialDefense": 95,
+    "Speed": 130
+  },
+  "Calyrex": {
+    "Typing": "Psychic/Grass",
+    "Description": "A mystical Pokémon that commands the balance between nature and the supernatural, awaiting its fated union.",
+    "HP": 100,
+    "Attack": 80,
+    "Defense": 80,
+    "SpecialAttack": 80,
+    "SpecialDefense": 80,
+    "Speed": 80
+  },
+  "Regieleki": {
+    "Typing": "Electric",
+    "Description": "A legendary Pokémon of pure electricity, its blistering speed and raw power push the limits of nature.",
+    "HP": 80,
+    "Attack": 50,
+    "Defense": 100,
+    "SpecialAttack": 150,
+    "SpecialDefense": 50,
+    "Speed": 200
+  },
+  "Regidrago": {
+    "Typing": "Dragon",
+    "Description": "A draconic Pokémon pulsing with ancient power, its very presence warps reality with its overwhelming might.",
+    "HP": 200,
+    "Attack": 100,
+    "Defense": 50,
+    "SpecialAttack": 100,
+    "SpecialDefense": 50,
+    "Speed": 80
+  },
+  "Enamorus": {
+    "Typing": "Fairy/Flying",
+    "Description": "This mysterious Flying and Fairy-type Legendary Pokémon is said to embody the very essence of love and springtime.",
+    "HP": 74,
+    "Attack": 115,
+    "Defense": 70,
+    "SpecialAttack": 135,
+    "SpecialDefense": 80,
+    "Speed": 106
+  },
+  "Glastrier": {
+    "Typing": "Ice",
+    "Description": "A majestic, ice-bound steed whose towering form and chilling aura evoke the frozen wilds of the north.",
+    "HP": 100,
+    "Attack": 145,
+    "Defense": 130,
+    "SpecialAttack": 65,
+    "SpecialDefense": 110,
+    "Speed": 30
+  },
+  "Spectrier": {
+    "Typing": "Ghost",
+    "Description": "A spectral steed that gallops through the night, its ethereal form and blazing speed leaving a trail of eerie light.",
+    "HP": 100,
+    "Attack": 65,
+    "Defense": 60,
+    "SpecialAttack": 145,
+    "SpecialDefense": 80,
+    "Speed": 130
+  },
+  "Kubfu": {
+    "Typing": "Fighting",
+    "Description": "Kubfu works hard to train both body and mind, even using its defeats as a motivation to grow even stronger.",
+    "HP": 60,
+    "Attack": 90,
+    "Defense": 60,
+    "SpecialAttack": 53,
+    "SpecialDefense": 50,
+    "Speed": 72
+  },
+  "Urshifu": {
+    "Typing": "Fighting/Dark",
+    "Description": "It has a muscular build with long legs and long arms with large paws and claws for striking.",
+    "HP": 100,
+    "Attack": 130,
+    "Defense": 100,
+    "SpecialAttack": 63,
+    "SpecialDefense": 60,
+    "Speed": 97
+  },
+  "Zarude": {
+    "Typing": "Dark/Grass",
+    "Description": "A mythical Pokémon that roams the untamed jungles of the Galar region, leading a clan with primal ferocity and a deep connection to nature.",
+    "HP": 105,
+    "Attack": 120,
+    "Defense": 105,
+    "SpecialAttack": 70,
+    "SpecialDefense": 95,
+    "Speed": 105
+  },
+  "Koraidon": {
+    "Typing": "Fighting/Dragon",
+    "Description": "A prehistoric legendary Pokémon that heralds the dawn of a new era in the Paldea region.",
+    "HP": 100,
+    "Attack": 145,
+    "Defense": 120,
+    "SpecialAttack": 65,
+    "SpecialDefense": 100,
+    "Speed": 105
+  },
+  "Miraidon": {
+    "Typing": "Electric/Dragon",
+    "Description": "A futuristic legendary Pokémon from the Paldea region, embodying advanced technology and sleek design.",
+    "HP": 100,
+    "Attack": 85,
+    "Defense": 100,
+    "SpecialAttack": 145,
+    "SpecialDefense": 120,
+    "Speed": 125
+  },
+  "Chi-Yu": {
+    "Typing": "Dark/Fire",
+    "Description": "A legendary Pokémon that emanates sinister flames, its burning aura heralding ruin.",
+    "HP": 70,
+    "Attack": 110,
+    "Defense": 70,
+    "SpecialAttack": 145,
+    "SpecialDefense": 80,
+    "Speed": 120
+  },
+  "Chien-Pao": {
+    "Typing": "Dark/Ice",
+    "Description": "A fearsome, agile Pokémon that embodies the chill of the void, its swift strikes leaving frost in its wake.",
+    "HP": 80,
+    "Attack": 120,
+    "Defense": 80,
+    "SpecialAttack": 100,
+    "SpecialDefense": 80,
+    "Speed": 130
+  },
+  "Ting-Lu": {
+    "Typing": "Dark/Ground",
+    "Description": "An ancient, colossal Pokémon whose very presence evokes the weight of the earth, foretelling ruin.",
+    "HP": 150,
+    "Attack": 100,
+    "Defense": 120,
+    "SpecialAttack": 75,
+    "SpecialDefense": 120,
+    "Speed": 60
+  },
+  "Wo-Chien": {
+    "Typing": "Dark/Grass",
+    "Description": "A mysterious, nature-bound Pokémon whose vine-like tendrils and dark aura herald decay and regrowth.",
+    "HP": 130,
+    "Attack": 90,
+    "Defense": 80,
+    "SpecialAttack": 70,
+    "SpecialDefense": 80,
+    "Speed": 110
+  },
+  "Ogerpon": {
+    "Typing": "Grass",
+    "Description": "It's full of curiosity about the lives of people and other Pokémon, usually spending time with humans while wearing a mask to blend in with them in Kitakami's Festival of Masks",
+    "HP": 80,
+    "Attack": 120,
+    "Defense": 84,
+    "SpecialAttack": 60,
+    "SpecialDefense": 96,
+    "Speed": 110
+  },
+  "Terapagos": {
+    "Typing": "Normal",
+    "Description": "It is a small and particularly weak Pokémon; for that reason, it can assume a dormant state whenever its life is put in danger or it needs to hibernate, pulling its head, limbs, and tail into its shell and shrinking in size, which makes itself look like an ordinary jewel.",
+    "HP": 85,
+    "Attack": 70,
+    "Defense": 85,
+    "SpecialAttack": 160,
+    "SpecialDefense": 100,
+    "Speed": 150
+  },
+  "Peacharunt": {
+    "Typing": "Poison/Ghost",
+    "Description": "It has two heart-shaped paws at the bottom of its body, along with three black dots on each side underneath them.",
+    "HP": 88,
+    "Attack": 88,
+    "Defense": 160,
+    "SpecialAttack": 88,
+    "SpecialDefense": 88,
+    "Speed": 88
+  }
+}
