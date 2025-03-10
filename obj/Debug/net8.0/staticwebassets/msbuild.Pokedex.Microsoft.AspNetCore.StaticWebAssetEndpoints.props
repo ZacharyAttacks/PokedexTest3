@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\moves.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"352771"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 06:00:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"352771"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 06:00:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Pokedex/data/moves.mq5bj0wlcx.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\moves.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mq5bj0wlcx"},{"Name":"integrity","Value":"sha256-ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8="},{"Name":"label","Value":"_content/Pokedex/data/moves.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"352771"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 06:00:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"352771"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022ziRsbFnVYh8YkbnDbRYSHJErvSbwygR/h4IUkCcvYE8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 06:00:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Pokedex/data/pokemon_data.3vofraz4qf.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\pokemon_data.json'))</AssetFile>

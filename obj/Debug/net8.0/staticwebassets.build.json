@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hssC5bb/ZEY0Xb57A/CS66aRL4MHdWUFyomAiSI4HBI=",
+  "Hash": "qTrd+KoBEP4RlP5ID8DBF00i6xXWKskkcg2vdcx/q9I=",
   "Source": "Pokedex",
   "BasePath": "_content/Pokedex",
   "Mode": "Default",
@@ -1467,7 +1467,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 06:00:05 GMT"
+          "Value": "Mon, 10 Mar 2025 06:00:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1504,7 +1504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 06:00:05 GMT"
+          "Value": "Mon, 10 Mar 2025 06:00:25 GMT"
         },
         {
           "Name": "Cache-Control",

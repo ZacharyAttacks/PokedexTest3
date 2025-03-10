@@ -19,4 +19,5 @@ RUN dotnet publish "Pokedex.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+COPY Pokedex.db /app/Pokedex.db 
 ENTRYPOINT ["dotnet", "Pokedex.dll"]
