@@ -1,0 +1,21 @@
+﻿@model IEnumerable<LegendaryPokedex.Models.Pokemon>
+
+<h1>Legendary Pokédex</h1>
+<a href="@Url.Action("AddPokemon")">Add Pokémon</a>
+<br />
+
+<table>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Name</td>
+            <td><img src="/pokemon/@(p.Name.ToLower()).png" width="60" /></td>
+            <td>
+                <a href="@Url.Action("ViewPokemon", new { id = p.Id })">View</a>
+                <a href="@Url.Action("EditPokemon", new { id = p.Id })">Edit</a>
+                <a href="@Url.Action("FavoritePokemon", new { id = p.Id })">Favorite</a>
+                <a href="@Url.Action("DeletePokemon", new { id = p.Id })">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

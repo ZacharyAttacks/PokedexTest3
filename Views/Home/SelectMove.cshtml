@@ -1,0 +1,50 @@
+﻿@model List<LegendaryPokedex.Models.Move>
+
+<h1>Select a Move</h1>
+
+@if (TempData["Error"] != null)
+{
+    <p style="color: red;"><strong>@TempData["Error"]</strong></p>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No moves available for this Pokémon.</p>
+}
+else
+{
+    <table border="1">
+        <tr>
+            <th>Move Name</th>
+            <th>Type</th>
+            <th>Power</th>
+            <th>Accuracy</th>
+            <th>PP</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var move in Model)
+        {
+            <tr>
+                <td>@move.Name</td>
+                <td><img src="/images/types/@(move.Type.ToLower()).png" alt="@move.Type Type" width="32" /></td>
+                <td>@(move.Power > 0 ? move.Power.ToString() : "—")</td>
+                <td>@(move.Accuracy > 0 ? move.Accuracy.ToString() : "—")</td>
+                <td>@move.PP</td>
+                <td>@move.Description</td>
+                <td>
+                    <form method="post" action="@Url.Action("AssignMove")">
+                        <input type="hidden" name="pokemonId" value="@ViewBag.PokemonId" />
+                        <input type="hidden" name="slot" value="@ViewBag.Slot" />
+                        <input type="hidden" name="moveName" value="@move.Name" />
+                        <button type="submit">Select</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+<!-- 🔥 Go Back Button (Now BELOW the move selection) -->
+<br />
+<a href="@Url.Action("EditPokemon", new { id = ViewBag.PokemonId })">Go Back</a>

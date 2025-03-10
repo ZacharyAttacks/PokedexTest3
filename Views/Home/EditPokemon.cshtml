@@ -1,0 +1,53 @@
+﻿@model LegendaryPokedex.Models.Pokemon
+
+<h1>Edit @Model.Name</h1>
+
+<!-- Moveset Editing -->
+<h3>Moveset</h3>
+@for (int i = 1; i <= 4; i++)
+{
+    string moveName = i switch
+    {
+        1 => Model.Move1,
+        2 => Model.Move2,
+        3 => Model.Move3,
+        4 => Model.Move4,
+        _ => ""
+    };
+    <p>Slot @i: @(string.IsNullOrEmpty(moveName) ? "Empty" : moveName)</p>
+    <a href="@Url.Action("SelectMove", new { pokemonId = Model.Id, slot = i })">Choose Move</a>
+}
+
+<!-- Change Form (If Applicable) -->
+@if (Model.Name == "Kyurem" || Model.Name == "Mewtwo" || Model.Name == "Giratina")
+{
+    <h3>Change Form</h3>
+    <form method="post" action="@Url.Action("ChangeForm")">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <select name="formName">
+            @if (Model.Name == "Kyurem")
+            {
+                <option>Normal</option>
+                <option>Black Kyurem</option>
+                <option>White Kyurem</option>
+            }
+            else if (Model.Name == "Mewtwo")
+            {
+                <option>Normal</option>
+                <option>Mega Mewtwo X</option>
+                <option>Mega Mewtwo Y</option>
+            }
+            else if (Model.Name == "Giratina")
+            {
+                <option>Altered Forme</option>
+                <option>Origin Forme</option>
+            }
+        </select>
+        <button type="submit">Change Form</button>
+    </form>
+}
+
+<!-- Back Button -->
+<br />
+<br />
+<a href="@Url.Action("Index")">Go Back</a>

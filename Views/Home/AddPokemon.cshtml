@@ -1,0 +1,23 @@
+﻿@model List<string>
+
+<h1>Select a Pokémon to Add</h1>
+
+<table>
+    @foreach (var pokemon in Model)
+    {
+        <tr>
+            <td>
+                <img src="/pokemon/@(pokemon.ToLower()).png" width="80" alt="@pokemon" />
+            </td>
+            <td>@pokemon</td>
+            <td>
+                <form method="post" action="@Url.Action("AddPokemon")">
+                    <input type="hidden" name="selectedPokemon" value="@pokemon" />
+                    <button type="submit">Add</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<a href="@Url.Action("Index")">Back to Pokédex</a>

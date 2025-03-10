@@ -1,0 +1,47 @@
+﻿@model LegendaryPokedex.Models.Pokemon
+
+<h1>@Model.Name</h1>
+
+<!-- Pokémon Image -->
+<img src="/pokemon/@(Model.Name.ToLower()).png" alt="@Model.Name" width="150" />
+
+<!-- Pokémon Type Display -->
+<p>
+    Type:
+    <img src="/images/types/@(Model.Typing.ToLower()).png" alt="@Model.Typing Type" width="32" />
+</p>
+
+<!-- Pokémon Description -->
+<p><strong>Description:</strong> @Model.Description</p>
+
+<!-- Base Stats as a Bar Graph -->
+<h3>Base Stats</h3>
+@{
+    int maxStat = 255;
+}
+@foreach (var stat in new[] {
+    ("HP", Model.HP),
+    ("Attack", Model.Attack),
+    ("Defense", Model.Defense),
+    ("Sp. Attack", Model.SpecialAttack),
+    ("Sp. Defense", Model.SpecialDefense),
+    ("Speed", Model.Speed)
+})
+{
+    <p>@stat.Item1: @stat.Item2</p>
+    <div style="width: 100%; background-color: #ddd; border-radius: 5px;">
+        <div style="width: @(stat.Item2 * 100 / maxStat)%; height: 20px; background-color: #4caf50; border-radius: 5px;"></div>
+    </div>
+}
+
+<!-- Moveset Display -->
+<h3>Moveset</h3>
+<ul>
+    <li>@(string.IsNullOrEmpty(Model.Move1) ? "Empty" : Model.Move1)</li>
+    <li>@(string.IsNullOrEmpty(Model.Move2) ? "Empty" : Model.Move2)</li>
+    <li>@(string.IsNullOrEmpty(Model.Move3) ? "Empty" : Model.Move3)</li>
+    <li>@(string.IsNullOrEmpty(Model.Move4) ? "Empty" : Model.Move4)</li>
+</ul>
+
+<!-- Back to Pokédex Button -->
+<a href="@Url.Action("Index")">Go Back</a>
