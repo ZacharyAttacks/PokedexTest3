@@ -21,6 +21,470 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\arceus.png",
+      "PackagePath": "staticwebassets\\images\\arceus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\articuno.png",
+      "PackagePath": "staticwebassets\\images\\articuno.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\azelf.png",
+      "PackagePath": "staticwebassets\\images\\azelf.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\blacephalon.png",
+      "PackagePath": "staticwebassets\\images\\blacephalon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\buzzwole.png",
+      "PackagePath": "staticwebassets\\images\\buzzwole.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\calyrex.png",
+      "PackagePath": "staticwebassets\\images\\calyrex.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\celebi.png",
+      "PackagePath": "staticwebassets\\images\\celebi.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\celesteela.png",
+      "PackagePath": "staticwebassets\\images\\celesteela.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\chi-yu.png",
+      "PackagePath": "staticwebassets\\images\\chi-yu.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\chien-pao.png",
+      "PackagePath": "staticwebassets\\images\\chien-pao.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\cobalion.png",
+      "PackagePath": "staticwebassets\\images\\cobalion.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\cresselia.png",
+      "PackagePath": "staticwebassets\\images\\cresselia.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\darkrai.png",
+      "PackagePath": "staticwebassets\\images\\darkrai.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\deoxys.png",
+      "PackagePath": "staticwebassets\\images\\deoxys.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\dialga.png",
+      "PackagePath": "staticwebassets\\images\\dialga.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\diancie.png",
+      "PackagePath": "staticwebassets\\images\\diancie.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\enamorus.png",
+      "PackagePath": "staticwebassets\\images\\enamorus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\entei.png",
+      "PackagePath": "staticwebassets\\images\\entei.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\eternatus.png",
+      "PackagePath": "staticwebassets\\images\\eternatus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\genesect.png",
+      "PackagePath": "staticwebassets\\images\\genesect.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\giratina.png",
+      "PackagePath": "staticwebassets\\images\\giratina.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\glastrier.png",
+      "PackagePath": "staticwebassets\\images\\glastrier.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\groudon.png",
+      "PackagePath": "staticwebassets\\images\\groudon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\guzzlord.png",
+      "PackagePath": "staticwebassets\\images\\guzzlord.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\heatran.png",
+      "PackagePath": "staticwebassets\\images\\heatran.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\ho-oh.png",
+      "PackagePath": "staticwebassets\\images\\ho-oh.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\hoopa.png",
+      "PackagePath": "staticwebassets\\images\\hoopa.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\jirachi.png",
+      "PackagePath": "staticwebassets\\images\\jirachi.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\kartana.png",
+      "PackagePath": "staticwebassets\\images\\kartana.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\keldeo.png",
+      "PackagePath": "staticwebassets\\images\\keldeo.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\koraidon.png",
+      "PackagePath": "staticwebassets\\images\\koraidon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\kubfu.png",
+      "PackagePath": "staticwebassets\\images\\kubfu.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\kyogre.png",
+      "PackagePath": "staticwebassets\\images\\kyogre.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\kyurem.png",
+      "PackagePath": "staticwebassets\\images\\kyurem.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\landorus.png",
+      "PackagePath": "staticwebassets\\images\\landorus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\latias.png",
+      "PackagePath": "staticwebassets\\images\\latias.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\latios.png",
+      "PackagePath": "staticwebassets\\images\\latios.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\lugia.png",
+      "PackagePath": "staticwebassets\\images\\lugia.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\lunala.png",
+      "PackagePath": "staticwebassets\\images\\lunala.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\magearna.png",
+      "PackagePath": "staticwebassets\\images\\magearna.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\manaphy.png",
+      "PackagePath": "staticwebassets\\images\\manaphy.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\marshadow.png",
+      "PackagePath": "staticwebassets\\images\\marshadow.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\melmetal.png",
+      "PackagePath": "staticwebassets\\images\\melmetal.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\meloetta.png",
+      "PackagePath": "staticwebassets\\images\\meloetta.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\meltan.png",
+      "PackagePath": "staticwebassets\\images\\meltan.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\mesprit.png",
+      "PackagePath": "staticwebassets\\images\\mesprit.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\mew.png",
+      "PackagePath": "staticwebassets\\images\\mew.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\mewtwo.png",
+      "PackagePath": "staticwebassets\\images\\mewtwo.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\miraidon.png",
+      "PackagePath": "staticwebassets\\images\\miraidon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\moltres.png",
+      "PackagePath": "staticwebassets\\images\\moltres.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\naganadel.png",
+      "PackagePath": "staticwebassets\\images\\naganadel.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\necrozma.png",
+      "PackagePath": "staticwebassets\\images\\necrozma.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\nihilego.png",
+      "PackagePath": "staticwebassets\\images\\nihilego.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\ogerpon.png",
+      "PackagePath": "staticwebassets\\images\\ogerpon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\palkia.png",
+      "PackagePath": "staticwebassets\\images\\palkia.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\pecharunt.png",
+      "PackagePath": "staticwebassets\\images\\pecharunt.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\pheromosa.png",
+      "PackagePath": "staticwebassets\\images\\pheromosa.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\phione.png",
+      "PackagePath": "staticwebassets\\images\\phione.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\poipole.png",
+      "PackagePath": "staticwebassets\\images\\poipole.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\raikou.png",
+      "PackagePath": "staticwebassets\\images\\raikou.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\rayquaza.png",
+      "PackagePath": "staticwebassets\\images\\rayquaza.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\regice.png",
+      "PackagePath": "staticwebassets\\images\\regice.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\regidrago.png",
+      "PackagePath": "staticwebassets\\images\\regidrago.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\regieleki.png",
+      "PackagePath": "staticwebassets\\images\\regieleki.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\regigigas.png",
+      "PackagePath": "staticwebassets\\images\\regigigas.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\regirock.png",
+      "PackagePath": "staticwebassets\\images\\regirock.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\registeel.png",
+      "PackagePath": "staticwebassets\\images\\registeel.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\reshiram.png",
+      "PackagePath": "staticwebassets\\images\\reshiram.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\shaymin.png",
+      "PackagePath": "staticwebassets\\images\\shaymin.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\solgaleo.png",
+      "PackagePath": "staticwebassets\\images\\solgaleo.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\spectrier.png",
+      "PackagePath": "staticwebassets\\images\\spectrier.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\stakataka.png",
+      "PackagePath": "staticwebassets\\images\\stakataka.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\suicune.png",
+      "PackagePath": "staticwebassets\\images\\suicune.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\tapu bulu.png",
+      "PackagePath": "staticwebassets\\images\\tapu bulu.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\tapu fini.png",
+      "PackagePath": "staticwebassets\\images\\tapu fini.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\tapu koko.png",
+      "PackagePath": "staticwebassets\\images\\tapu koko.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\tapu lele.png",
+      "PackagePath": "staticwebassets\\images\\tapu lele.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\terapagos.png",
+      "PackagePath": "staticwebassets\\images\\terapagos.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\terrakion.png",
+      "PackagePath": "staticwebassets\\images\\terrakion.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\thundurus.png",
+      "PackagePath": "staticwebassets\\images\\thundurus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\ting-lu.png",
+      "PackagePath": "staticwebassets\\images\\ting-lu.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\tornadus.png",
+      "PackagePath": "staticwebassets\\images\\tornadus.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\bug.png",
+      "PackagePath": "staticwebassets\\images\\types\\bug.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\dark.png",
+      "PackagePath": "staticwebassets\\images\\types\\dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\dragon.png",
+      "PackagePath": "staticwebassets\\images\\types\\dragon.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\electric.png",
+      "PackagePath": "staticwebassets\\images\\types\\electric.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\fairy.png",
+      "PackagePath": "staticwebassets\\images\\types\\fairy.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\fighting.png",
+      "PackagePath": "staticwebassets\\images\\types\\fighting.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\fire.png",
+      "PackagePath": "staticwebassets\\images\\types\\fire.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\flying.png",
+      "PackagePath": "staticwebassets\\images\\types\\flying.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\ghost.png",
+      "PackagePath": "staticwebassets\\images\\types\\ghost.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\grass.png",
+      "PackagePath": "staticwebassets\\images\\types\\grass.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\ground.png",
+      "PackagePath": "staticwebassets\\images\\types\\ground.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\ice.png",
+      "PackagePath": "staticwebassets\\images\\types\\ice.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\normal.png",
+      "PackagePath": "staticwebassets\\images\\types\\normal.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\poison.png",
+      "PackagePath": "staticwebassets\\images\\types\\poison.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\psychic.png",
+      "PackagePath": "staticwebassets\\images\\types\\psychic.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\rock.png",
+      "PackagePath": "staticwebassets\\images\\types\\rock.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\steel.png",
+      "PackagePath": "staticwebassets\\images\\types\\steel.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\types\\water.png",
+      "PackagePath": "staticwebassets\\images\\types\\water.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\urshifu.png",
+      "PackagePath": "staticwebassets\\images\\urshifu.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\uxie.png",
+      "PackagePath": "staticwebassets\\images\\uxie.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\victini.png",
+      "PackagePath": "staticwebassets\\images\\victini.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\virizion.png",
+      "PackagePath": "staticwebassets\\images\\virizion.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\volcanion.png",
+      "PackagePath": "staticwebassets\\images\\volcanion.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\wo-chien.png",
+      "PackagePath": "staticwebassets\\images\\wo-chien.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\xerneas.png",
+      "PackagePath": "staticwebassets\\images\\xerneas.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\xurkitree.png",
+      "PackagePath": "staticwebassets\\images\\xurkitree.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\yveltal.png",
+      "PackagePath": "staticwebassets\\images\\yveltal.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zacian.png",
+      "PackagePath": "staticwebassets\\images\\zacian.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zamazenta.png",
+      "PackagePath": "staticwebassets\\images\\zamazenta.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zapdos.png",
+      "PackagePath": "staticwebassets\\images\\zapdos.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zarude.png",
+      "PackagePath": "staticwebassets\\images\\zarude.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zekrom.png",
+      "PackagePath": "staticwebassets\\images\\zekrom.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zeraora.png",
+      "PackagePath": "staticwebassets\\images\\zeraora.png"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\images\\zygarde.png",
+      "PackagePath": "staticwebassets\\images\\zygarde.png"
+    },
+    {
       "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -251,6 +715,10 @@
     {
       "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Zach\\source\\repos\\Pokedex\\Pokedex\\wwwroot\\marshadow.png",
+      "PackagePath": "staticwebassets\\marshadow.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pokedex.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

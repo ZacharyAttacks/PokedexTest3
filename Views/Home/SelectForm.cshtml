@@ -1,0 +1,20 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Select Pokémon Form";
+    var forms = ViewBag.Forms as List<string>;
+}
+
+<h2>Select a Form for @Model</h2>
+
+<form method="post" asp-action="AddForm">
+    <input type="hidden" name="pokemonName" value="@Model" />
+    <label for="formName">Choose a form:</label>
+    <select name="formName" required>
+        @foreach (var form in forms)
+        {
+            <option value="@form">@form</option>
+        }
+    </select>
+    <br />
+    <button type="submit">Confirm</button>
+</form>

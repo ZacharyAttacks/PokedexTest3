@@ -1,21 +1,49 @@
-﻿@model IEnumerable<LegendaryPokedex.Models.Pokemon>
+﻿@model List<LegendaryPokedex.Models.Pokemon>
 
-<h1>Legendary Pokédex</h1>
-<a href="@Url.Action("AddPokemon")">Add Pokémon</a>
-<br />
+<h2>Legendary Pokémon List</h2>
 
-<table>
-    @foreach (var p in Model)
-    {
-        <tr>
-            <td>@p.Name</td>
-            <td><img src="/pokemon/@(p.Name.ToLower()).png" width="60" /></td>
-            <td>
-                <a href="@Url.Action("ViewPokemon", new { id = p.Id })">View</a>
-                <a href="@Url.Action("EditPokemon", new { id = p.Id })">Edit</a>
-                <a href="@Url.Action("FavoritePokemon", new { id = p.Id })">Favorite</a>
-                <a href="@Url.Action("DeletePokemon", new { id = p.Id })">Delete</a>
-            </td>
-        </tr>
-    }
-</table>
+@if (Model != null && Model.Any()) // ✅ Only show the table if Pokémon exist
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Favorite</th>
+                <th>Actions</th> <!-- This only appears if Pokémon exist -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pokemon in Model)
+            {
+                <tr>
+                    <td>@pokemon.Name</td>
+
+                    <td>
+                        <form asp-action="ToggleFavorite" asp-controller="Home" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@pokemon.Id" />
+                            <button type="submit" style="border: none; background: none; font-size: 24px; cursor: pointer;">
+                                @(pokemon.IsFavorite ? "❤️" : "🤍")
+                            </button>
+                        </form>
+                    </td>
+
+                    <td>
+                        <a asp-action="ViewPokemon" asp-route-id="@pokemon.Id" class="btn btn-primary">View</a>
+                        <a asp-action="EditPokemon" asp-route-id="@pokemon.Id" class="btn btn-warning">Edit</a>
+
+                        <form asp-action="DeletePokemon" asp-controller="Home" method="post" style="display:inline;" onsubmit="return confirm('Are you sure?');">
+                            <input type="hidden" name="id" value="@pokemon.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No Pokémon available.</p> <!-- ✅ Show message instead of an empty table -->
+}
+
+<a asp-action="AddPokemon" class="btn btn-success">Add New Pokémon</a>

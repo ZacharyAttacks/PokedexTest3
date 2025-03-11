@@ -4,7 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using LegendaryPokedex.Data;  // Ensure this matches your namespace for DbContext
+
+using Pokedex.Data;  // Ensure this matches your namespace for DbContext
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -17,6 +17,11 @@
         public string? Move3 { get; set; } = "";
         public string? Move4 { get; set; } = "";
         public bool IsFavorite { get; set; }
-        public string? Form { get; set; }
+        public string ImagePath => $"/images/{Name}.png";
+        public string TypeImagePath => $"/images/types/{Typing.ToLower()}.png";
+        public string? Move1Type { get; set; }
+        public string? Move2Type { get; set; }
+        public string? Move3Type { get; set; }
+        public string? Move4Type { get; set; }
     }
 }

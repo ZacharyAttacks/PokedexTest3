@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using LegendaryPokedex.Data;
+
 using LegendaryPokedex.Models;
+using Pokedex.Data;
 
 namespace LegendaryPokedex.Controllers
 {
@@ -34,7 +35,7 @@ namespace LegendaryPokedex.Controllers
         // ✅ Display main Pokédex page (All Pokémon in Database)
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Pokemons.ToListAsync());
+            return View(await _context.Pokemon.ToListAsync());
         }
 
         // ✅ Display the Add Pokémon page (List of Legendary Pokémon)
@@ -71,55 +72,89 @@ namespace LegendaryPokedex.Controllers
                     Move4 = ""
                 };
 
-                _context.Pokemons.Add(pokemon);
+                _context.Pokemon.Add(pokemon);
                 await _context.SaveChangesAsync();
             }
 
             return RedirectToAction("Index");
         }
 
+
         // ✅ View Pokémon Details
-        public async Task<IActionResult> ViewPokemon(int id)
+        public IActionResult ViewPokemon(int id)
         {
-            var pokemon = await _context.Pokemons.FindAsync(id);
+            var pokemon = _context.Pokemon.FirstOrDefault(p => p.Id == id);
+
+            if (pokemon == null)
+            {
+                return NotFound();
+            }
+
+            // ✅ Remove JSON dependency - Just set default "Normal" type for now
+            pokemon.Move1Type = "normal";
+            pokemon.Move2Type = "normal";
+            pokemon.Move3Type = "normal";
+            pokemon.Move4Type = "normal";
+
             return View(pokemon);
         }
+
+
+        // ✅ Fetches the correct move type from the database
+
 
         // ✅ Edit Pokémon (ONLY Moveset & Form)
         public async Task<IActionResult> EditPokemon(int id)
         {
-            var pokemon = await _context.Pokemons.FindAsync(id);
+            var pokemon = await _context.Pokemon.FindAsync(id);
             return View(pokemon);
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditPokemon(int id, string formName)
+
+
+        [HttpPost]
+        [HttpPost]
+        public IActionResult ToggleFavorite(int id)
         {
-            var pokemon = await _context.Pokemons.FindAsync(id);
-            if (pokemon != null)
+            var pokemon = _context.Pokemon.Find(id);
+            if (pokemon == null)
             {
-                pokemon.Form = formName;
-                await _context.SaveChangesAsync();
+                return NotFound();
             }
+
+            // Toggle the favorite status
+            pokemon.IsFavorite = !pokemon.IsFavorite;
+            _context.SaveChanges();
+
+            return RedirectToAction("Index"); // ✅ Redirects back to Index instead of ViewPokemon
+        }
+
+
+
+        // ✅ Delete Pokémon
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [HttpDelete] // This allows DELETE requests
+        public IActionResult DeletePokemon(int id)
+        {
+            var pokemon = _context.Pokemon.Find(id);
+            if (pokemon == null)
+            {
+                return NotFound();
+            }
+
+            _context.Pokemon.Remove(pokemon);
+            _context.SaveChanges();
+
             return RedirectToAction("Index");
         }
 
-        // ✅ Delete Pokémon
-        public async Task<IActionResult> DeletePokemon(int id)
-        {
-            var pokemon = await _context.Pokemons.FindAsync(id);
-            if (pokemon != null)
-            {
-                _context.Pokemons.Remove(pokemon);
-                await _context.SaveChangesAsync();
-            }
-            return RedirectToAction(nameof(Index));
-        }
 
         // ✅ Toggle Favorite Pokémon
         public async Task<IActionResult> FavoritePokemon(int id)
         {
-            var pokemon = await _context.Pokemons.FindAsync(id);
+            var pokemon = await _context.Pokemon.FindAsync(id);
             if (pokemon != null)
             {
                 pokemon.IsFavorite = !pokemon.IsFavorite;
@@ -141,7 +176,7 @@ namespace LegendaryPokedex.Controllers
             var jsonData = System.IO.File.ReadAllText(filePath);
             var allMoves = JsonConvert.DeserializeObject<Dictionary<string, List<Move>>>(jsonData) ?? new Dictionary<string, List<Move>>();
 
-            var pokemon = _context.Pokemons.Find(pokemonId);
+            var pokemon = _context.Pokemon.Find(pokemonId);
             if (pokemon == null)
             {
                 return NotFound();
@@ -159,7 +194,7 @@ namespace LegendaryPokedex.Controllers
         [HttpPost]
         public async Task<IActionResult> AssignMove(int pokemonId, int slot, string moveName)
         {
-            var pokemon = await _context.Pokemons.FindAsync(pokemonId);
+            var pokemon = await _context.Pokemon.FindAsync(pokemonId);
             if (pokemon != null)
             {
                 // 🔥 Prevent Duplicate Moves

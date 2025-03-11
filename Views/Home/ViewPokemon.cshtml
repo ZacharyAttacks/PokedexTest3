@@ -1,47 +1,128 @@
 ﻿@model LegendaryPokedex.Models.Pokemon
 
-<h1>@Model.Name</h1>
+<h3>@Model.Name</h3>
+<img src="@Model.ImagePath" alt="@Model.Name" width="500" height="500" onerror="this.src='/images/default.png';">
+<!-- Display Pokémon's Type and Stats at the top -->
+<div>
+    <p><strong>Type:</strong> @Model.Typing</p> <!-- Displaying the Pokémon's type -->
+    <!-- Display Pokémon Type Image (Assuming images are in /images/types/ and named by the type) -->
+    <h3>Type:</h3>
 
-<!-- Pokémon Image -->
-<img src="/pokemon/@(Model.Name.ToLower()).png" alt="@Model.Name" width="150" />
+    @foreach (var type in Model.Typing.Split('/'))
+    {
+        <img src="/images/types/@(type.ToLower()).png" alt="@type" width="100" height="100" onerror="this.src='/images/types/default.png';">
+    }
 
-<!-- Pokémon Type Display -->
-<p>
-    Type:
-    <img src="/images/types/@(Model.Typing.ToLower()).png" alt="@Model.Typing Type" width="32" />
-</p>
+</div>
 
-<!-- Pokémon Description -->
-<p><strong>Description:</strong> @Model.Description</p>
-
-<!-- Base Stats as a Bar Graph -->
+<!-- Display Pokémon's Base Stats as a proper bar graph -->
 <h3>Base Stats</h3>
-@{
-    int maxStat = 255;
-}
-@foreach (var stat in new[] {
-    ("HP", Model.HP),
-    ("Attack", Model.Attack),
-    ("Defense", Model.Defense),
-    ("Sp. Attack", Model.SpecialAttack),
-    ("Sp. Defense", Model.SpecialDefense),
-    ("Speed", Model.Speed)
-})
-{
-    <p>@stat.Item1: @stat.Item2</p>
-    <div style="width: 100%; background-color: #ddd; border-radius: 5px;">
-        <div style="width: @(stat.Item2 * 100 / maxStat)%; height: 20px; background-color: #4caf50; border-radius: 5px;"></div>
+<div>
+    <!-- HP Stat Bar (Red) -->
+    <div>
+        <strong>HP</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.HP)% ; background-color: red; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.HP
+            </div>
+        </div>
     </div>
-}
 
-<!-- Moveset Display -->
-<h3>Moveset</h3>
-<ul>
-    <li>@(string.IsNullOrEmpty(Model.Move1) ? "Empty" : Model.Move1)</li>
-    <li>@(string.IsNullOrEmpty(Model.Move2) ? "Empty" : Model.Move2)</li>
-    <li>@(string.IsNullOrEmpty(Model.Move3) ? "Empty" : Model.Move3)</li>
-    <li>@(string.IsNullOrEmpty(Model.Move4) ? "Empty" : Model.Move4)</li>
-</ul>
+    <!-- Attack Stat Bar (Orange) -->
+    <div>
+        <strong>Attack</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.Attack)% ; background-color: orange; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.Attack
+            </div>
+        </div>
+    </div>
 
-<!-- Back to Pokédex Button -->
+    <!-- Defense Stat Bar (Yellow) -->
+    <div>
+        <strong>Defense</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.Defense)% ; background-color: yellow; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.Defense
+            </div>
+        </div>
+    </div>
+
+    <!-- Special Attack Stat Bar (Green) -->
+    <div>
+        <strong>Special Attack</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.SpecialAttack)% ; background-color: green; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.SpecialAttack
+            </div>
+        </div>
+    </div>
+
+    <!-- Special Defense Stat Bar (Blue) -->
+    <div>
+        <strong>Special Defense</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.SpecialDefense)% ; background-color: blue; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.SpecialDefense
+            </div>
+        </div>
+    </div>
+
+    <!-- Speed Stat Bar (Purple) -->
+    <div>
+        <strong>Speed</strong>
+        <div style="position: relative; width: 90%; max-width: 500px; height: 40px; background-color: #fff;">
+            <div style="position: absolute; width: @(Model.Speed)% ; background-color: purple; height: 100%; text-align: left; padding-left: 10px; color: white; line-height: 40px;">
+                @Model.Speed
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Display Pokémon Description -->
+<h3>Description</h3>
+<p>@Model.Description</p>
+
+<!-- Display Pokémon Moves with Typing -->
+<h3>Moves</h3>
+<table border="1">
+    <tr>
+        <th style="padding-right: 30px;">Move Name</th>
+    </tr>
+
+    @if (!string.IsNullOrEmpty(Model.Move1))
+    {
+        <tr>
+            <td>@Model.Move1</td>
+            
+        </tr>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.Move2))
+    {
+        <tr>
+            <td>@Model.Move2</td>
+           
+        </tr>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.Move3))
+    { 
+        <tr>
+            <td>@Model.Move3</td>
+            
+        </tr>
+    }
+
+    @if (!string.IsNullOrEmpty(Model.Move4))
+    {
+        <tr>
+            <td>@Model.Move4</td>
+            
+        </tr>
+    }
+</table>
+
+<!-- Back Button -->
+<br>
 <a href="@Url.Action("Index")">Go Back</a>
